@@ -12,7 +12,6 @@ void setup() {
     pinMode(in3Pin, OUTPUT);
     pinMode(in4Pin, OUTPUT);
     pinMode(enBPin, OUTPUT);
-
     Serial.begin(9600);
     BTSerial.begin(9600);
 }
